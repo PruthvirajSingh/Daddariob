@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Aug 29 05:07:45 GMT 2023","Tue Aug 29 05:07:59 GMT 2023","13607","Suite","Test","Pkg.Test.LoginTest","Pkg.Test.LoginTest","homePageTestCaseTC002","Verify when user login into the system for the first time user should navigate to the dashboard page",""
-"passed","Tue Aug 29 05:08:28 GMT 2023","Tue Aug 29 05:08:33 GMT 2023","5317","Suite","Test","Pkg.Test.RegisterUser","Pkg.Test.RegisterUser","registerIntoSystemTC001","Verify that user can register into the system from the create account page",""
-"passed","Tue Aug 29 05:08:07 GMT 2023","Tue Aug 29 05:08:19 GMT 2023","11906","Suite","Test","Pkg.Test.LoginTest","Pkg.Test.LoginTest","loginTestCaseTC001","Verify user should be able login into system",""
+"passed","Tue Aug 29 05:34:18 GMT 2023","Tue Aug 29 05:34:24 GMT 2023","6351","Suite","Test","Pkg.Test.RegisterUser","Pkg.Test.RegisterUser","registerIntoSystemTC001","Verify that user can register into the system from the create account page",""
+"passed","Tue Aug 29 05:33:35 GMT 2023","Tue Aug 29 05:33:50 GMT 2023","15181","Suite","Test","Pkg.Test.LoginTest","Pkg.Test.LoginTest","homePageTestCaseTC002","Verify when user login into the system for the first time user should navigate to the dashboard page",""
+"failed","Tue Aug 29 05:33:58 GMT 2023","Tue Aug 29 05:34:00 GMT 2023","2277","Suite","Test","Pkg.Test.LoginTest","Pkg.Test.LoginTest","loginTestCaseTC001","Verify user should be able login into system",""

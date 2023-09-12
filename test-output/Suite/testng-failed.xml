@@ -13,25 +13,15 @@
       </run>
     </groups>
     <classes>
-      <class name="Pkg.Test.LoginTest">
-        <methods>
-          <include name="closeWindow"/>
-          <include name="tearDown"/>
-          <include name="beforeTest"/>
-          <include name="loginTestCaseTC001"/>
-          <include name="logout"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- Pkg.Test.LoginTest -->
       <class name="Pkg.Test.AddProductIntoCart">
         <methods>
+          <include name="updateQuatity"/>
           <include name="tearDown"/>
           <include name="closeWindow"/>
           <include name="beforeTest"/>
           <include name="logout"/>
           <include name="beforeClass"/>
-          <include name="multipleVeriantsOfTheProduct"/>
+          <include name="productCartTC001"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- Pkg.Test.AddProductIntoCart -->

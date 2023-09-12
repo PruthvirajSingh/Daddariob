@@ -13,8 +13,14 @@
 			</run>
 		</groups>
 		<classes>
+			<class name="Pkg.Test.AddProductIntoCart">
+				<methods>
+					<include name="productWithPackSize" />
+					<include name="updateQuatity" />
+					<include name="productCartTC001" />
+				</methods>
+			</class>
 			<class name="Pkg.Test.RegisterUser" />
-			<class name="Pkg.Test.AddProductIntoCart" />
 			<class name="Pkg.Test.LoginTest" />
 		</classes>
 	</test> <!-- Test -->

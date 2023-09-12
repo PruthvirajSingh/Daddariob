@@ -1,43 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="19" passed="13" failed="2" skipped="0">
+<testng-results ignored="5" total="8" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-11T09:06:52 IST" name="Suite" finished-at="2023-09-11T09:21:28 IST" duration-ms="875880">
+  <suite started-at="2023-09-12T15:25:17 IST" name="Suite" finished-at="2023-09-12T15:28:08 IST" duration-ms="170956">
     <groups>
       <group name="Regression">
-        <method signature="AddProductIntoCart.addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="addToCartLogo" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="deleteProductFromTheCart" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="multipleVeriantsOfTheProduct" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="paymentDetailsTC003" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="productWithPackSize" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="updateQuatity" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="AddProductIntoCart.yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="yourCartProductTC002" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="LoginTest.homePageTestCaseTC002()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" name="homePageTestCaseTC002" class="Pkg.Test.LoginTest"/>
-        <method signature="LoginTest.loginTestCaseTC001()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" name="loginTestCaseTC001" class="Pkg.Test.LoginTest"/>
-        <method signature="RegisterUser.fiveHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="fiveHundredPoints" class="Pkg.Test.RegisterUser"/>
-        <method signature="RegisterUser.hundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="hundredPoints" class="Pkg.Test.RegisterUser"/>
-        <method signature="RegisterUser.loginTestAfterActiveAccount()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="loginTestAfterActiveAccount" class="Pkg.Test.RegisterUser"/>
-        <method signature="RegisterUser.myAccountProfile()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="myAccountProfile" class="Pkg.Test.RegisterUser"/>
-        <method signature="RegisterUser.sixHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="sixHundredPoints" class="Pkg.Test.RegisterUser"/>
+        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" name="productWithPackSize" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" name="updateQuatity" class="Pkg.Test.AddProductIntoCart"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
-        <method signature="LoginTest.homePageTestCaseTC002()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" name="homePageTestCaseTC002" class="Pkg.Test.LoginTest"/>
-        <method signature="RegisterUser.sixHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" name="sixHundredPoints" class="Pkg.Test.RegisterUser"/>
+        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-09-11T09:06:52 IST" name="Test" finished-at="2023-09-11T09:21:28 IST" duration-ms="875880">
-      <class name="Pkg.Test.RegisterUser">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:06:52 IST" name="beforeTest" finished-at="2023-09-11T09:06:53 IST" duration-ms="794" status="PASS">
+    <test started-at="2023-09-12T15:25:17 IST" name="Test" finished-at="2023-09-12T15:28:08 IST" duration-ms="170956">
+      <class name="Pkg.Test.AddProductIntoCart">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:25:17 IST" name="beforeTest" finished-at="2023-09-12T15:25:18 IST" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:06:53 IST" name="beforeClass" finished-at="2023-09-11T09:06:54 IST" duration-ms="734" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:25:18 IST" name="beforeClass" finished-at="2023-09-12T15:25:19 IST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:06:54 IST" name="beforeMethod" finished-at="2023-09-11T09:07:07 IST" duration-ms="12436" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:25:19 IST" name="beforeMethod" finished-at="2023-09-12T15:25:37 IST" duration-ms="17788" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,446 +34,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="fiveHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:07:07 IST" name="fiveHundredPoints" description="Verify that the user should be able to see the 500 points credited after updating their profile." finished-at="2023-09-11T09:08:31 IST" duration-ms="84367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fiveHundredPoints -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:08:31 IST" name="closeWindow" finished-at="2023-09-11T09:08:33 IST" duration-ms="2171" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=fiveHundredPoints status=SUCCESS method=RegisterUser.fiveHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:08:33 IST" name="beforeMethod" finished-at="2023-09-11T09:08:41 IST" duration-ms="7964" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="hundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:08:41 IST" name="hundredPoints" description="Verify that the user is able to see the &#039;100&#039; points credited message after activating their account" finished-at="2023-09-11T09:09:31 IST" duration-ms="49510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hundredPoints -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:09:31 IST" name="closeWindow" finished-at="2023-09-11T09:09:33 IST" duration-ms="1846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=hundredPoints status=SUCCESS method=RegisterUser.hundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:09:33 IST" name="beforeMethod" finished-at="2023-09-11T09:09:43 IST" duration-ms="10210" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginTestAfterActiveAccount()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:09:43 IST" name="loginTestAfterActiveAccount" description="Verify that user able to navigate to login page after the active account" finished-at="2023-09-11T09:10:39 IST" duration-ms="55921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestAfterActiveAccount -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:10:39 IST" name="closeWindow" finished-at="2023-09-11T09:10:40 IST" duration-ms="1321" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTestAfterActiveAccount status=SUCCESS method=RegisterUser.loginTestAfterActiveAccount()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:10:40 IST" name="beforeMethod" finished-at="2023-09-11T09:10:50 IST" duration-ms="9592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="myAccountProfile()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:10:50 IST" name="myAccountProfile" description="Verify that the user is able to see &#039;MY ACCOUNT&#039; after clicking on the player profile" finished-at="2023-09-11T09:11:45 IST" duration-ms="55204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myAccountProfile -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:11:45 IST" name="closeWindow" finished-at="2023-09-11T09:11:46 IST" duration-ms="1297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=myAccountProfile status=SUCCESS method=RegisterUser.myAccountProfile()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:11:46 IST" name="beforeMethod" finished-at="2023-09-11T09:12:30 IST" duration-ms="43266" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="sixHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:12:30 IST" name="sixHundredPoints" description="Verify that the user is able to see the &#039;600&#039; points credited after clicking on the profile." finished-at="2023-09-11T09:13:56 IST" duration-ms="85780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sixHundredPoints -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:13:56 IST" name="closeWindow" finished-at="2023-09-11T09:13:57 IST" duration-ms="1487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sixHundredPoints status=SUCCESS method=RegisterUser.sixHundredPoints()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:13:57 IST" name="logout" finished-at="2023-09-11T09:13:57 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pkg.Test.RegisterUser@7c6442c2]" started-at="2023-09-11T09:21:28 IST" name="tearDown" finished-at="2023-09-11T09:21:28 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Pkg.Test.RegisterUser -->
-      <class name="Pkg.Test.LoginTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:20:42 IST" name="beforeClass" finished-at="2023-09-11T09:20:43 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:20:43 IST" name="beforeMethod" finished-at="2023-09-11T09:20:53 IST" duration-ms="10594" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="homePageTestCaseTC002()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:20:53 IST" name="homePageTestCaseTC002" description="Verify that when a user logs into the system for the first time, the user should be navigated to the dashboard page" finished-at="2023-09-11T09:21:11 IST" duration-ms="17862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageTestCaseTC002 -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:21:11 IST" name="closeWindow" finished-at="2023-09-11T09:21:12 IST" duration-ms="894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=homePageTestCaseTC002 status=SUCCESS method=LoginTest.homePageTestCaseTC002()[pri:0, instance:Pkg.Test.LoginTest@34dc85a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:21:12 IST" name="beforeMethod" finished-at="2023-09-11T09:21:24 IST" duration-ms="11701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginTestCaseTC001()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:21:24 IST" name="loginTestCaseTC001" description="Verify that the user should be able to log into the system" finished-at="2023-09-11T09:21:27 IST" duration-ms="3125" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Sign in with your email] but found [Sign in with your email address]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Sign in with your email] but found [Sign in with your email address]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Pkg.Test.LoginTest.loginTestCaseTC001(LoginTest.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCaseTC001 -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:21:27 IST" name="closeWindow" finished-at="2023-09-11T09:21:28 IST" duration-ms="982" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTestCaseTC001 status=FAILURE method=LoginTest.loginTestCaseTC001()[pri:0, instance:Pkg.Test.LoginTest@34dc85a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Pkg.Test.LoginTest@34dc85a]" started-at="2023-09-11T09:21:28 IST" name="logout" finished-at="2023-09-11T09:21:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- Pkg.Test.LoginTest -->
-      <class name="Pkg.Test.AddProductIntoCart">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:13:57 IST" name="beforeClass" finished-at="2023-09-11T09:13:57 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:13:57 IST" name="beforeMethod" finished-at="2023-09-11T09:14:05 IST" duration-ms="8326" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:14:05 IST" name="addToCartLogo" description="Verify that the user is able to add the product to the cart by using the &#039;Add to Cart&#039; button." finished-at="2023-09-11T09:14:34 IST" duration-ms="28888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartLogo -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:14:34 IST" name="closeWindow" finished-at="2023-09-11T09:14:35 IST" duration-ms="1027" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addToCartLogo status=SUCCESS method=AddProductIntoCart.addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:14:35 IST" name="beforeMethod" finished-at="2023-09-11T09:14:48 IST" duration-ms="12611" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:14:48 IST" name="deleteProductFromTheCart" description="Verify that the user should be able to delete the product from the cart." finished-at="2023-09-11T09:15:25 IST" duration-ms="36677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteProductFromTheCart -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:15:25 IST" name="closeWindow" finished-at="2023-09-11T09:15:25 IST" duration-ms="913" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deleteProductFromTheCart status=SUCCESS method=AddProductIntoCart.deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:15:26 IST" name="beforeMethod" finished-at="2023-09-11T09:15:41 IST" duration-ms="15792" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:15:41 IST" name="multipleVeriantsOfTheProduct" description="Verify that the user should be able to select multiple variants of the product and add them to the cart." finished-at="2023-09-11T09:16:18 IST" duration-ms="36230" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [D'ADDARIO PL009-5 PLAIN STEEL GUITAR SINGLE STRING, .009, 5-PACK] but found [null]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [D'ADDARIO PL009-5 PLAIN STEEL GUITAR SINGLE STRING, .009, 5-PACK] but found [null]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Pkg.Test.AddProductIntoCart.multipleVeriantsOfTheProduct(AddProductIntoCart.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multipleVeriantsOfTheProduct -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:16:18 IST" name="closeWindow" finished-at="2023-09-11T09:16:19 IST" duration-ms="1104" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=multipleVeriantsOfTheProduct status=FAILURE method=AddProductIntoCart.multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:16:19 IST" name="beforeMethod" finished-at="2023-09-11T09:16:27 IST" duration-ms="7869" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:16:27 IST" name="paymentDetailsTC003" description="Verify that the user is able to fill in the mandatory information for the payment process" finished-at="2023-09-11T09:17:15 IST" duration-ms="48388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentDetailsTC003 -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:17:15 IST" name="closeWindow" finished-at="2023-09-11T09:17:16 IST" duration-ms="1006" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=paymentDetailsTC003 status=SUCCESS method=AddProductIntoCart.paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:17:16 IST" name="beforeMethod" finished-at="2023-09-11T09:17:26 IST" duration-ms="9504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:17:26 IST" name="productCartTC001" description="Verify whether the user can add the product to the cart and proceed to checkout using PayPal." finished-at="2023-09-11T09:18:16 IST" duration-ms="50224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productCartTC001 -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:18:16 IST" name="closeWindow" finished-at="2023-09-11T09:18:17 IST" duration-ms="955" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productCartTC001 status=SUCCESS method=AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:18:17 IST" name="beforeMethod" finished-at="2023-09-11T09:18:29 IST" duration-ms="11881" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:18:29 IST" name="productWithPackSize" description="Verify that the user should be able to add the product with the &#039;Select a Pack Size&#039; option, and if the product is &#039;out of stock,&#039; then the user should be able to select another pack size" finished-at="2023-09-11T09:19:17 IST" duration-ms="48503" status="PASS">
+        <test-method signature="productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:25:38 IST" name="productWithPackSize" description="Verify that the user should be able to add the product with the &#039;Select a Pack Size&#039; option, and if the product is &#039;out of stock,&#039; then the user should be able to select another pack size" finished-at="2023-09-12T15:26:29 IST" duration-ms="51438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productWithPackSize -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:19:17 IST" name="closeWindow" finished-at="2023-09-11T09:19:18 IST" duration-ms="744" status="PASS">
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:26:29 IST" name="closeWindow" finished-at="2023-09-12T15:26:32 IST" duration-ms="2666" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productWithPackSize status=SUCCESS method=AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
+                <![CDATA[[TestResult name=productWithPackSize status=SUCCESS method=AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:19:18 IST" name="beforeMethod" finished-at="2023-09-11T09:19:26 IST" duration-ms="7556" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:26:32 IST" name="beforeMethod" finished-at="2023-09-12T15:26:42 IST" duration-ms="10643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -498,22 +60,170 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:19:26 IST" name="updateQuatity" description="Verify that the user should be able to change/update the product quantity from the &#039;YOUR CART&#039;." finished-at="2023-09-11T09:20:01 IST" duration-ms="35527" status="PASS">
+        <test-method signature="updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:26:42 IST" name="updateQuatity" description="Verify that the user should be able to change/update the product quantity from the &#039;YOUR CART&#039;." finished-at="2023-09-12T15:27:57 IST" duration-ms="74490" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.96)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd578456b888021cf597f8587502869f, findElement {using=css selector, value=.price-col p span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64697/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd578456b888021cf597f8587502869f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.96)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd578456b888021cf597f8587502869f, findElement {using=css selector, value=.price-col p span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64697/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd578456b888021cf597f8587502869f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
+at Pkg.PageObject.LoginAndAddProductIntoCart.updateProductQuatity(LoginAndAddProductIntoCart.java:283)
+at Pkg.Test.AddProductIntoCart.updateQuatity(AddProductIntoCart.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateQuatity -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:20:01 IST" name="closeWindow" finished-at="2023-09-11T09:20:02 IST" duration-ms="948" status="PASS">
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:27:57 IST" name="closeWindow" finished-at="2023-09-12T15:27:58 IST" duration-ms="573" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=updateQuatity status=SUCCESS method=AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
+                <![CDATA[[TestResult name=updateQuatity status=FAILURE method=AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=116.0.5845.96)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd578456b888021cf597f8587502869f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64697/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd578456b888021cf597f8587502869f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=116.0.5845.96)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd578456b888021cf597f8587502869f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64697/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd578456b888021cf597f8587502869f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
+at Pkg.BaseClass.BaseClass.closeWindow(BaseClass.java:141)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:20:02 IST" name="beforeMethod" finished-at="2023-09-11T09:20:11 IST" duration-ms="8715" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:27:58 IST" name="beforeMethod" finished-at="2023-09-12T15:28:08 IST" duration-ms="10002" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -521,28 +231,305 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1007)
+at Pkg.BaseClass.BaseClass.beforeMethod(BaseClass.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 35 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:20:11 IST" name="yourCartProductTC002" description="Verify that the user is able to see the product on the &#039;YOUR CART&#039; page after adding it to the cart" finished-at="2023-09-11T09:20:41 IST" duration-ms="30378" status="PASS">
+        <test-method signature="productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:28:08 IST" name="productCartTC001" description="Verify whether the user can add the product to the cart and proceed to checkout using PayPal." finished-at="2023-09-12T15:28:08 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1007)
+at Pkg.BaseClass.BaseClass.beforeMethod(BaseClass.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 35 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- yourCartProductTC002 -->
-        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:20:41 IST" name="closeWindow" finished-at="2023-09-11T09:20:42 IST" duration-ms="1111" status="PASS">
+        </test-method> <!-- productCartTC001 -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:28:08 IST" name="closeWindow" finished-at="2023-09-12T15:28:08 IST" duration-ms="144" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=yourCartProductTC002 status=SUCCESS method=AddProductIntoCart.yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, close []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bc8fe84d2bfa5bf81678fdca6f36d54, close []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRUTHV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bc8fe84d2bfa5bf81678fdca6f36d54
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
+at Pkg.BaseClass.BaseClass.closeWindow(BaseClass.java:141)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:613)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:46518
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 37 more
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:46518
+at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:46518
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Pkg.Test.AddProductIntoCart@27c04377]" started-at="2023-09-11T09:20:42 IST" name="logout" finished-at="2023-09-11T09:20:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:28:08 IST" name="logout" finished-at="2023-09-12T15:28:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pkg.Test.AddProductIntoCart@31da6b2e]" started-at="2023-09-12T15:28:08 IST" name="tearDown" finished-at="2023-09-12T15:28:08 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Pkg.Test.AddProductIntoCart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

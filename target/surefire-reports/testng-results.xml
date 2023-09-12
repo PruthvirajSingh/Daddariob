@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T17:44:07 IST" name="Suite" finished-at="2023-09-08T17:52:47 IST" duration-ms="520645">
+    <groups>
+      <group name="Regression">
+        <method signature="AddProductIntoCart.addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="addToCartLogo" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="deleteProductFromTheCart" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="multipleVeriantsOfTheProduct" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="paymentDetailsTC003" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="productWithPackSize" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="updateQuatity" class="Pkg.Test.AddProductIntoCart"/>
+        <method signature="AddProductIntoCart.yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="yourCartProductTC002" class="Pkg.Test.AddProductIntoCart"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" name="productCartTC001" class="Pkg.Test.AddProductIntoCart"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-09-08T17:44:07 IST" name="Test" finished-at="2023-09-08T17:52:47 IST" duration-ms="520645">
+      <class name="Pkg.Test.AddProductIntoCart">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:07 IST" name="beforeTest" finished-at="2023-09-08T17:44:08 IST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:08 IST" name="beforeClass" finished-at="2023-09-08T17:44:09 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:10 IST" name="beforeMethod" finished-at="2023-09-08T17:44:22 IST" duration-ms="12131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:22 IST" name="addToCartLogo" description="Verify that the user is able to add the product to the cart by using the &#039;Add to Cart&#039; button." finished-at="2023-09-08T17:44:53 IST" duration-ms="30509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartLogo -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:53 IST" name="closeWindow" finished-at="2023-09-08T17:44:54 IST" duration-ms="1676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartLogo status=SUCCESS method=AddProductIntoCart.addToCartLogo()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:44:54 IST" name="beforeMethod" finished-at="2023-09-08T17:45:14 IST" duration-ms="19573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:45:14 IST" name="deleteProductFromTheCart" description="Verify that the user should be able to delete the product from the cart." finished-at="2023-09-08T17:45:57 IST" duration-ms="43272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductFromTheCart -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:45:57 IST" name="closeWindow" finished-at="2023-09-08T17:45:58 IST" duration-ms="1026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteProductFromTheCart status=SUCCESS method=AddProductIntoCart.deleteProductFromTheCart()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:45:58 IST" name="beforeMethod" finished-at="2023-09-08T17:46:06 IST" duration-ms="8090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:46:06 IST" name="multipleVeriantsOfTheProduct" description="Verify that the user should be able to select multiple variants of the product and add them to the cart." finished-at="2023-09-08T17:46:45 IST" duration-ms="38988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleVeriantsOfTheProduct -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:46:45 IST" name="closeWindow" finished-at="2023-09-08T17:46:46 IST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multipleVeriantsOfTheProduct status=SUCCESS method=AddProductIntoCart.multipleVeriantsOfTheProduct()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:46:46 IST" name="beforeMethod" finished-at="2023-09-08T17:46:54 IST" duration-ms="7537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:46:54 IST" name="paymentDetailsTC003" description="Verify that the user is able to fill in the mandatory information for the payment process" finished-at="2023-09-08T17:47:28 IST" duration-ms="34022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentDetailsTC003 -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:47:28 IST" name="closeWindow" finished-at="2023-09-08T17:47:29 IST" duration-ms="1218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymentDetailsTC003 status=SUCCESS method=AddProductIntoCart.paymentDetailsTC003()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:47:29 IST" name="beforeMethod" finished-at="2023-09-08T17:47:37 IST" duration-ms="7299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:47:37 IST" name="productCartTC001" description="Verify whether the user can add the product to the cart and proceed to checkout using PayPal." finished-at="2023-09-08T17:48:48 IST" duration-ms="71238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCartTC001 -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:48:48 IST" name="closeWindow" finished-at="2023-09-08T17:48:49 IST" duration-ms="912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productCartTC001 status=SUCCESS method=AddProductIntoCart.productCartTC001()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:48:49 IST" name="beforeMethod" finished-at="2023-09-08T17:49:09 IST" duration-ms="20296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:49:09 IST" name="productWithPackSize" description="Verify that the user should be able to add the product with the &#039;Select a Pack Size&#039; option, and if the product is &#039;out of stock,&#039; then the user should be able to select another pack size" finished-at="2023-09-08T17:50:38 IST" duration-ms="88686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productWithPackSize -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:50:38 IST" name="closeWindow" finished-at="2023-09-08T17:50:39 IST" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productWithPackSize status=SUCCESS method=AddProductIntoCart.productWithPackSize()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:50:39 IST" name="beforeMethod" finished-at="2023-09-08T17:50:50 IST" duration-ms="11094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:50:50 IST" name="updateQuatity" description="Verify that the user should be able to change/update the product quantity from the &#039;YOUR CART&#039;." finished-at="2023-09-08T17:51:31 IST" duration-ms="40873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateQuatity -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:51:31 IST" name="closeWindow" finished-at="2023-09-08T17:51:31 IST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateQuatity status=SUCCESS method=AddProductIntoCart.updateQuatity()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:51:31 IST" name="beforeMethod" finished-at="2023-09-08T17:51:44 IST" duration-ms="12606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:51:44 IST" name="yourCartProductTC002" description="Verify that the user is able to see the product on the &#039;YOUR CART&#039; page after adding it to the cart" finished-at="2023-09-08T17:52:47 IST" duration-ms="62491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourCartProductTC002 -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:52:47 IST" name="closeWindow" finished-at="2023-09-08T17:52:47 IST" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yourCartProductTC002 status=SUCCESS method=AddProductIntoCart.yourCartProductTC002()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:52:47 IST" name="logout" finished-at="2023-09-08T17:52:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pkg.Test.AddProductIntoCart@511d5d04]" started-at="2023-09-08T17:52:47 IST" name="tearDown" finished-at="2023-09-08T17:52:47 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pkg.Test.AddProductIntoCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

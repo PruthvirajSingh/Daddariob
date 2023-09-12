@@ -1,0 +1,37 @@
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    name: Run Selenium Tests
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'  # Replace with the desired Java version (e.g., 8, 11, 16, etc.)
+          distribution: 'adopt'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+
+      - name: Build and run tests
+        run: |
+          mvn test
+          
+      - name: Generate Allure report
+        run: |
+          npm install -g allure-commandline
+          allure --version
+          allure generate allure-results --clean
+      - name: Deploy Allure report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.MY_TOKEN_NEW }}
+          publish_dir: ./allure-report

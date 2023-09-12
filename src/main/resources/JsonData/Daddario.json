@@ -1,0 +1,58 @@
+{
+	"dataForEmailCombinations":{
+		"TestCase1":141,
+		"TestCase2":142,
+		"TestCase3":143,
+		"TestCase4":144,
+		"TestCase5":146
+	}
+	,
+	"createNewAccountData":{
+		"firstName":"PQR123",
+		"lastName":"Dy12",
+		"country":"United States",
+		"primaryInstrument":"Guitar+",
+		"hearAboutUs":"Social Media",
+		"educatated":"Yes",
+		"emailId":"User98557@yopmail.com",
+		"password":"Testuser491@",
+		"shoppingAddress":"YYx",
+		"cityNameValue":"Denmark",
+		"zipCode":"44533",
+		"phoneNumberValue":"233232443",
+		"addToCartProductByCartLogo":"09-80 SUPER LIGHT 8-STRING, NYXL ELECTRIC GUITAR STRINGS ",
+		"productQantityToUpdate":"9",
+		"packSizeProduct":"EXL110",
+		"multipleVeriantTypeProductSearch":"PL010",
+		"typeOfProduct":"Plain Steel Singles",
+		"VeriantType":"5-PACK SINGLE PLAIN STEEL 009"
+	},
+	"guitarProfile":{
+		"playerPlayOwnInstrument":"Acoustic Guitar",
+		"typeOfMusicMostOften":"Alternative",
+		"instrumentDoYouTeach":"Acoustic Guitar",
+		"settingCurrentlyTeach":"Elementary School",
+		"studentTeachInWeek":"10 or less",
+		"levelOfStudent":"Beginner",
+		"brandAndAccessoriesCurretlyPlay":"Adamas",
+		"stringInGuitarInstrumentChange":"Every Week",
+		"setBuyAtATime":"6-10",
+		"gender":"Male"
+	},
+	"Assertions":{
+		"TextInSingInPage":"Sign in with your email address",
+		"TextValueInSignInPageWrong":"Sign in with your email",
+		"yourCartValue":"YOUR CART",
+		"orderConformMessage":"THANK YOU FOR YOUR ORDER",
+		"MyOrderHeader":"MY ACCOUNT",
+		"500PointsCreadited":"Thank you for completing your profile - if this was your first submission, you will receive 500 points!",
+		"600PointMessage":"600",
+		"100PointMessage":"100",
+		"cartEmptyMessage":"YOUR CART IS EMPTY. START SHOPPING TO FILL IT UP.",
+		"productAssertionsOfVeriants":"10-46 REGULAR LIGHT, XL NICKEL ELECTRIC GUITAR STRINGS",
+		"addedProductIntoCartAfterVeriantSelections":"D'ADDARIO PL009-5 PLAIN STEEL GUITAR SINGLE STRING, .009, 5-PACK",
+		"addToCartProductByCartLogo":"09-80 SUPER LIGHT 8-STRING, NYXL ELECTRIC GUITAR STRINGS"
+	}
+	
+
+}

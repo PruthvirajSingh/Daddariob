@@ -87,6 +87,7 @@ public class BaseClass {
 	@BeforeTest(alwaysRun= true)
 	public void beforeTest() throws IOException  {
 		report = new Sparkreport("Test","extent report", "ABC", "ABC");
+		//new chagews in the bulid
 	}
 	
 	@BeforeMethod(alwaysRun= true)

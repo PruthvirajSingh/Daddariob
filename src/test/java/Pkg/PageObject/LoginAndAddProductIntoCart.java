@@ -25,6 +25,7 @@ public class LoginAndAddProductIntoCart {
 	Actions builder;
 	String productName;
 	String parentWindow;
+	//I find out new update here
 	@FindBy (css="#search-form-trigger")
 	private WebElement searchForProduct;
 	

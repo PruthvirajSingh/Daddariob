@@ -89,7 +89,7 @@ public class BaseClass {
 		report = new Sparkreport("Test","extent report", "ABC", "ABC");
 		//new chagews in the bulid
 	}
-	
+	//this is before method
 	@BeforeMethod(alwaysRun= true)
 	@Parameters("browser")
 	public void beforeMethod(@Optional("1") String browser) throws Exception {

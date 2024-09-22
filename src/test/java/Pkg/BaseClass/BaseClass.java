@@ -1,5 +1,5 @@
 package Pkg.BaseClass;
-
+//new base class added
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
